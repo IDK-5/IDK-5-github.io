@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+:root {
+
+}
+
+*{
+  overflow: hidden;
+  font-family: Orbitron;
+  background-color: rgba(36, 37, 42, 1.0);
+}
+
+body{
+  display: grid;
+  justify-content: center;
+}
+
+h1, h2{
+  cursor: default;
+  text-transform: uppercase;
+  transition: 1s;
+  text-align: center;
+}
+
+h1 {
+  color: #FFD300;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+
+h2{
+  margin-top: 0;
+  color: white;
+}
+
+.temp-message {
+  margin-top: 35vh;
+  transition: 1s;
+}
+
+.temp-message:hover {
+  transform: scale(1.5);
+}
+
+.temp-message:hover > h1 {
+  color: white;
+}
+.temp-message:hover > h2 {
+  color: #ffd300;
+}
